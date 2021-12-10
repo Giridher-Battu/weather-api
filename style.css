@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.city{
+    text-align: center;
+}
+.display{
+    text-align: center;
+    margin-top: 20px;
+    color:turquoise;
+}
+input[type = "text"]{
+    background-color:gray;
+    height: 30px;
+    width: 200px;
+    transition: 0.4s;
+    color: brown;
+}
+input[type = "button"]{
+    background-color:lightgoldenrodyellow;
+    height: 30px;
+}
+input[type = "text"]:hover{
+    background-color: tomato;
+    transform: scale(1.2);
+}
